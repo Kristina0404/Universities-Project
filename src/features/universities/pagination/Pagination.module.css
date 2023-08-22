@@ -1,0 +1,27 @@
+.pagination {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	list-style: none;
+}
+.pagination_button {
+	transition: transform 0.2s;
+	margin: 20px 7px 30px 7px;
+	background-color: #a8a8fc;
+	border: 1px solid #007bff;
+	border-radius: 5px;
+	padding: 0 10px 0 10px;
+	border: 1px solid #114479;
+	box-shadow: 0 0 7px rgba(18, 4, 75, 0.5);
+}
+.pagination_button:hover {
+	transform: scale(1.1);
+}
+.currentPageButton {
+	font-weight: bold;
+	transform: scale(1.1);
+	background-color: #9191fb;
+	border: 1px solid #114479;
+	border-radius: 5px;
+	box-shadow: 0 0 7px rgba(18, 4, 75, 0.5);
+}

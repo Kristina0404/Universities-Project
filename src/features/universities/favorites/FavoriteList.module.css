@@ -1,0 +1,59 @@
+.container {
+	background-color: #ffffcc;
+	height: 800px;
+}
+
+.link {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	margin: 20px 20px 20px 100px;
+	padding-top: 20px;
+}
+.title {
+	color: #260099;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 60px;
+	font-family: 'Times New Roman', Times, serif;
+	margin: 50px;
+}
+.container_image {
+	background-image: url('../home/pngwing.com.png');
+	height: 400px;
+	width: 260px;
+	background-size: cover;
+	margin: -30px 0px 50px 800px;
+	background-color: transparent;
+}
+.card {
+	width: 600px;
+	height: 150px;
+	background-color: #f9f9a5;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	border: none;
+	border-radius: 30px;
+}
+.list {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	text-align: center;
+	margin: -400px 0 10px 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+.checkbox {
+	margin-left: 20px;
+}
+
+.delete {
+	width: 70px;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	background-color: #6666ff;
+	color: #ffffcc;
+	margin-top: 20px;
+}

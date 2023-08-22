@@ -1,0 +1,85 @@
+.container {
+	background-color: lightcyan;
+	height: 700px;
+}
+.box {
+	width: 830px;
+	height: 230px;
+	background-color: rgb(187, 222, 237);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 70px;
+	font-style: italic;
+	text-align: center;
+	border: none;
+	border-radius: 40px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	color: #14014c;
+}
+.container_image {
+	background-color: transparent;
+	width: 500px;
+	height: 440px;
+	background-image: url('./NicePng_student-png_79158.png');
+	background-size: cover;
+	margin: -200px 30px 50px 650px;
+
+	background-color: transparent;
+}
+
+.welcome {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 0px;
+	padding-top: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 60px;
+	color: #260099;
+}
+.text {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	margin: -250px 0 0 170px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 24px;
+	color: #260099;
+}
+.search {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	margin: 20px 0 0 210px;
+}
+
+.country {
+	width: 250px;
+	height: 30px;
+	font-size: 18px;
+	background-color: #ffffcc;
+	color: #260099;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: flex-start;
+	margin: 10px 0;
+}
+.btn {
+	width: 80px;
+	height: 50px;
+	margin-left: 10px;
+	background-color: #6153cc;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.link_favorite {
+	margin-left: 285px;
+	font-size: 20px;
+}
