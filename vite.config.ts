@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
   	open: true,
   },
-  base: '/vite-deploy/',
+  base: '/universities-project/',
   build: {
   	outDir: 'build',
   	sourcemap: true,
